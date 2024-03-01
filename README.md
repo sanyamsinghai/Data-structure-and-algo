@@ -1,2 +1,3 @@
-# Data-structure-and-algo
+# Data structure and algorithms
 learning path of DSA
+
