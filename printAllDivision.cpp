@@ -6,7 +6,7 @@ using namespace std;
 // } Driver Code Ends
 class Solution { 
   public:
-    void print_divisors(int n) {
+    void print_divisors(int n) { 
         // Code here.
         vector<int> v;
         int i;
@@ -14,7 +14,7 @@ class Solution {
         for(i=1 ; i<=sq ; i++){
             if(n%i==0){
                 // cout<<i<<" ";
-                v.push_back(i);
+                v.push_back(i); 
                 
                 if(n/i!=i)
                 // cout<<n/i<<" ";
