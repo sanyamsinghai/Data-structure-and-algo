@@ -14,7 +14,7 @@ class Solution {
         for(i=1 ; i<=sq ; i++){
             if(n%i==0){
                 // cout<<i<<" ";
-                v.push_back(i); 
+                v.push_back(i);  //
                 
                 if(n/i!=i)
                 // cout<<n/i<<" ";
