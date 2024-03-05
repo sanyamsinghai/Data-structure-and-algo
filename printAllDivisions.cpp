@@ -4,7 +4,7 @@
 using namespace std;
 
 // } Driver Code Ends
-class Solution {
+class Solution { 
   public:
     void print_divisors(int n) {
         // Code here.
