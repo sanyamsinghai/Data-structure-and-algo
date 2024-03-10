@@ -20,18 +20,24 @@ using namespace std;
     };
 
     class male:public human{
+        public:
         string color;
 
-
+        void sleep(){
+            cout<<"male sleeping"<<endl;
+        }
 
     };
     
 
 int main(){
     male object1;
+    
 
     object1.sethealth(75);
     cout<<"health is : "<<object1.gethealth()<<endl;
+
+    object1.sleep();
     
     return 0;
 }
