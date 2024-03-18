@@ -2,7 +2,7 @@
 using namespace std;
 
 
-//Inheritance
+//                                                           SINGLE INHERITANCE
 
     class human{
         public:
@@ -13,7 +13,7 @@ using namespace std;
         int gethealth(){
             return this->health;
         }
-
+                                                     
         void sethealth(int h){
             this->health=h;
         }
@@ -28,6 +28,8 @@ using namespace std;
         }
 
     };
+
+   
     
 
 int main(){
@@ -41,3 +43,5 @@ int main(){
     
     return 0;
 }
+
+
