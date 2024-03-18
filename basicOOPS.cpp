@@ -9,6 +9,12 @@ class student {
     int classs;
     string name; 
 
+    //constructor called
+    student(){  
+        cout<<endl;                                           
+        cout<<"constructor called ->"<<endl;
+    }
+
 };
 
 int main(){
@@ -18,6 +24,7 @@ int main(){
     s1.id=3110;
     s1.section='A';
 
+    cout<<endl;
     cout<<"enter name : ";
     getline(cin,s1.name);
 
