@@ -1,5 +1,4 @@
 #include<iostream>
-#include<bits/stdc++.h>
 using namespace std;
 
 void func1(int i,int arr[],int n){
@@ -11,9 +10,10 @@ void func1(int i,int arr[],int n){
 
 int main(){
     int n;
-    int arr[n];
     cout<<"enter size of array : ";
     cin>>n;
+
+    int *arr=new int[n];
 
     for(int i=0 ; i<n ; i++){
         cin>>arr[i];
@@ -25,5 +25,6 @@ int main(){
     }
     cout<<endl;
 
+    delete[] arr;
     return 0;
 }
